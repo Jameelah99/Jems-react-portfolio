@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 70px;
+    padding: 1rem;
   }
   
   /* logo */
@@ -19,7 +19,7 @@ header{
     font-size: 30px;
     font-weight: bold;
     color: #d48166;
-    margin-left: 10px;
+    margin-left: 50px;
   }
   
   li{
@@ -32,8 +32,9 @@ header{
   
   .Links {
     display: flex;
-    margin: 20px;
-    gap: 30px;
+    margin-right: 50px;
+    gap: 3rem;
+    letter-spacing: 2px;
   }
   
   /* navlinks*/
@@ -42,8 +43,8 @@ header{
     font-size: 30px;
     font-weight: bold;
     transition: 0.5s; /*makes content blink */
-    padding: 5px;
-    margin: 10px;
+    /* padding: 5px; */
+    /* margin: 10px; */
   }
   
   .navlink:hover{

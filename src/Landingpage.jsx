@@ -1,6 +1,8 @@
 import React from 'react'
 import "./styles/landingpage.css"
 import { Link } from 'react-router-dom'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import { faHands } from '@fortawesome/free-solid-svg-icons'
 
 
 function Landingpage() {
@@ -11,7 +13,7 @@ function Landingpage() {
   <section id="hero-wrapper">
   <section className="hero-wrapper-content">
     <img src="http://github.com/Jameelah99.png" alt="Jemilat's profile picture" className="profile-image" />
-    <p className="greeting"> HI,</p> 
+    <p className="greeting"> HI <FontAwesomeIcon icon={faHands} /></p> 
     <p className="full-name"> I'm Rotimi Oluwatoyin Jemilat</p>
     <p className="brief"> A Frontend Developer</p>
     <section className="hero-media-wrapper">
@@ -35,7 +37,7 @@ function Landingpage() {
       </Link>
     </section>
     <section className="hero-btns-wrapper">
-      <Link to="/" target="_blank"> <button className="btn download-btn">Download CV</button> </Link> 
+      <Link to="https://drive.google.com/file/d/11x2p9X3YKLppa8hi1qa4U-q7HRXqZtdd/view?usp=drivesdk" target="_blank"> <button className="btn download-btn">Download CV</button> </Link> 
     </section>
   </section>
 </section>

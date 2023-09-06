@@ -13,11 +13,11 @@
   }
   
   #hero-wrapper {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("./Images/hans-ripa-F5J4QJqXQ98-unsplash.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("../assets/hans-ripa-F5J4QJqXQ98-unsplash.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 95vh;
+    height: 100vh;
     position: relative;
   }
   
@@ -272,7 +272,7 @@
           rgba(0, 0, 0, 0.452),
           rgba(0, 0, 0, 0.452)
         ),
-        url("./Images/Snapchat-355398358.jpg");
+        url("../assets/Snapchat-355398358.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
@@ -358,7 +358,7 @@
           rgba(0, 0, 0, 0.452),
           rgba(0, 0, 0, 0.452)
         ),
-        url("./Images/Snapchat-748339387.jpg");
+        url("../assets/Snapchat-748339387.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
